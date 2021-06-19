@@ -1,0 +1,85 @@
+.navbar {
+  color: #fff;
+}
+
+.sidebar {
+  background-color: #343a40;
+  color: #fff;
+  min-height: 100vh;
+  height: 100%;
+  border-right: 1px solid #000;
+}
+
+.coach-info {
+  border-bottom: 1px solid black;
+}
+
+.coach-picture-container {
+  margin-top: 2vh;
+}
+
+.coach-picture {
+  height: 10vh;
+  border-radius: 50%;
+}
+
+.coach-name {
+  font-size: 1.2rem;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list li {
+  margin: 2vh 0;
+}
+
+.nav-list li a {
+  color: #fff;
+}
+
+.nav-list li a:hover {
+  color: #ff2;
+  text-decoration: none;
+}
+
+.page-title {
+  border-bottom: 0.5px solid #000;
+}
+
+.client-row {
+  box-shadow: 2px 0 10px #000;
+}
+
+.badge-active,
+.badge-inactive,
+.badge-assigned,
+.badge-not-assigned {
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.badge-active {
+  background-color: #008000;
+}
+
+.badge-inactive {
+  background-color: #ff0000;
+}
+
+.badge-assigned {
+  background-color: #008000;
+}
+
+.badge-not-assigned {
+  background-color: #ff0000;
+}
+
+.type-image {
+  border: 0.5px solid gray;
+  border-radius: 50%;
+  box-shadow: 2px 1px 2px gray;
+}
